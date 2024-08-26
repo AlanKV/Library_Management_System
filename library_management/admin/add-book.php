@@ -6,6 +6,7 @@ $id = $_SESSION['id'];
 if(empty($id))
 {
     header("Location: index.php"); 
+   
 }
 if(isset($_REQUEST['sbt-book-btn']))
 {
